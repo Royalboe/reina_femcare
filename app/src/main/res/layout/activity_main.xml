@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/business_page_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/business_name_text"
+            style="@style/text_style"
+            android:layout_marginTop="0dp"
+            android:text="@string/reina"
+            android:textAlignment="viewStart"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/location"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location" />
+
+        <TextView
+            android:id="@+id/est"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/year_est" />
+
+        <TextView
+            android:id="@+id/business_owner_name"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/owner" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/description_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin">
+
+            <TextView
+                android:id="@+id/description_text"
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="@dimen/padding_start"
+                android:paddingRight="@dimen/padding_start"
+                android:text="@string/description"
+                android:textAlignment="viewStart"
+                tools:text="@string/description" />
+
+
+        </androidx.core.widget.NestedScrollView>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

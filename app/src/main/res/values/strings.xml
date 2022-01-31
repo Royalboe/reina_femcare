@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reina Femcare</string>
+    <string name="reina">Reina Femcare</string>
+    <string name="owner">Founded By: Ogunsina Grace</string>
+    <string name="year_est">EST. 2020</string>
+    <string name="location">Lagos, Nigeria</string>
+    <string name="description"> Reina Femcare is a platform that demystifies menstruation and creates awareness and engagements about femininity and the female body while offering safe, affordable and medical-grade feminine hygiene products that are sustainable to the environment. We also promote the use of non-pharmacological management of PMS and other period side effects. </string>
+    <string name="opening_hours">Opening Hours: 8am - 7pm Everyday</string>
+</resources>
